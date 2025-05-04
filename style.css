@@ -1,0 +1,353 @@
+@font-face {
+    font-family: Rowdies;
+    src: url(fontes/Rowdies-Regular.woff2);
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: robot;
+    src: url(fontes/Roboto-VariableFont_wdth\,wght.woff2);
+}
+@font-face {
+    font-family: pot;
+    src: url(fontes/PaytoneOne-Regular.woff2);
+}
+.itens-menus {
+    background-color:  rgba(255, 255, 255, 0.7);
+    background-image: url(imagens-cabeçalho/mapa.jpg);
+    background-size: cover;               /* Cobrir todo o espaço */
+    background-position: center;          /* Centralizar a imagem */
+    background-repeat: no-repeat;         /* Evitar repetição */
+    padding: 10%;                 
+    text-align: 100%;
+    font-family: Rowdies;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 54px;
+    display: block;
+    box-shadow: unset;
+    position: unset;
+
+}
+.itens-menus ul table {
+    list-style-type: none; /* Remove os marcadores da lista */
+    display: flex; /* Torna os itens da lista flexíveis (alinhados horizontalmente) */
+    justify-content: center; /* Centraliza os itens no menu */
+    padding: 15px 0; /* Espaçamento interno vertical */
+}
+.itens-menus li {
+    margin: 30px; /* Espaçamento entre os itens do menu */
+    padding: 60px;
+
+    
+   
+}
+.itens-menus a {
+    text-decoration: none; /* Remove o sublinhado dos links */
+    color: white; /* Cor do texto */
+    font-weight: bold; /* Texto em negrito */
+    padding: 5px 10px; /* Espaçamento interno nos links */
+    border-radius: 4px; /* Bordas arredondadas */
+    transition: background-color 0.3s; /* Transição suave para hover */
+}
+.itens-menus a:hover {
+    background-color: black; /* Cor de fundo ao passar o mouse */
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+p {
+    font-family: robot;
+    width: 60%;
+    font-size: x-large;
+    text-align: 100%;
+}
+h2 {
+    font-family:pot ;
+    
+
+}
+h1 {
+   font-family:pot ;
+   font-size: xx-large;
+    
+    
+}
+ul {
+    font-family:Rowdies;
+    text-align: 100%;
+}
+.ind {
+    font-size: xx-large;
+}
+body {
+
+background-color: rgb(199, 227, 228);
+}
+.natureza {
+    margin-bottom: 30px;
+    padding: 18.1px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    
+    
+
+    
+    
+}
+.cultura {
+    margin-bottom: 30px;
+    padding: 18.1px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    margin-top:0%;
+}
+.culinaria {
+    margin-bottom: 30px;
+    padding: 18.1px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+
+    
+}
+.nat {
+    color: #2c3e50;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+    margin-top: 54px;
+    
+}
+.cult {
+    color: #2c3e50;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+    margin-top: 55px;
+}
+.culi {
+    color: #2c3e50;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+    
+}
+.culin {
+    width: 300px;       /* Largura fixa */
+    height: 200px;      /* Altura fixa */
+    object-fit: cover;  /* Redimensiona a imagem sem distorcer */
+    border-radius: 8px; /* Borda arredondada (opcional) */
+    margin: 10px;
+    position:relative;top:0
+  
+
+    
+}
+.n {
+    width: 300px;       /* Largura fixa */
+    height: 200px;      /* Altura fixa */
+    object-fit: cover;  /* Redimensiona a imagem sem distorcer */
+    border-radius: 8px; /* Borda arredondada (opcional) */
+    margin: 10px;       /* Espaçamento entre imagens */
+   
+    
+}
+.cul {
+    width: 300px;       /* Largura fixa */
+    height: 200px;      /* Altura fixa */
+    object-fit: cover;  /* Redimensiona a imagem sem distorcer */
+    border-radius: 8px; /* Borda arredondada (opcional) */
+    margin: 10px;       /* Espaçamento entre imagens */
+             
+}
+.iten-praia {
+    background-color:  rgba(255, 255, 255, 0.7);
+    background-image: url(imagens-cabeçalho/natureza.2.jpg);
+    background-size: cover;               /* Cobrir todo o espaço */
+    background-position: center;          /* Centralizar a imagem */
+    background-repeat: no-repeat;         /* Evitar repetição */
+    padding: 10%;                 
+    text-align: 100%;
+    font-family: Rowdies;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 54px;
+    display: block;
+    box-shadow: unset;
+    position: unset;
+}
+.iten-praia ul table {
+    list-style-type: none; /* Remove os marcadores da lista */
+    display: flex; /* Torna os itens da lista flexíveis (alinhados horizontalmente) */
+    justify-content: center; /* Centraliza os itens no menu */
+    padding: 15px 0; /* Espaçamento interno vertical */
+}
+.iten-praia li {
+    margin: 30px; /* Espaçamento entre os itens do menu */
+    padding: 60px;
+
+    
+   
+}
+.iten-praia a {
+    text-decoration: none; /* Remove o sublinhado dos links */
+    color: white; /* Cor do texto */
+    font-weight: bold; /* Texto em negrito */
+    padding: 5px 10px; /* Espaçamento interno nos links */
+    border-radius: 4px; /* Bordas arredondadas */
+    transition: background-color 0.3s; /* Transição suave para hover */
+}
+.iten-praia a:hover {
+    background-color: black; /* Cor de fundo ao passar o mouse */
+}
+.iten-culinaria {
+    background-color:  rgba(255, 255, 255, 0.7);
+    background-image: url(imagens-cabeçalho/culinaria2.jpg);
+    background-size: cover;               /* Cobrir todo o espaço */
+    background-position: center;          /* Centralizar a imagem */
+    background-repeat: no-repeat;         /* Evitar repetição */
+    padding: 10%;                 
+    text-align: 100%;
+    font-family: Rowdies;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 54px;
+    display: block;
+    box-shadow: unset;
+    position: unset;
+}
+.iten-culinaria  ul table {
+    list-style-type: none; /* Remove os marcadores da lista */
+    display: flex; /* Torna os itens da lista flexíveis (alinhados horizontalmente) */
+    justify-content: center; /* Centraliza os itens no menu */
+    padding: 15px 0; /* Espaçamento interno vertical */
+}
+.iten-culinaria  li {
+    margin: 30px; /* Espaçamento entre os itens do menu */
+    padding: 60px;
+
+    
+   
+}
+.iten-culinaria  a {
+    text-decoration: none; /* Remove o sublinhado dos links */
+    color: white; /* Cor do texto */
+    font-weight: bold; /* Texto em negrito */
+    padding: 5px 10px; /* Espaçamento interno nos links */
+    border-radius: 4px; /* Bordas arredondadas */
+    transition: background-color 0.3s; /* Transição suave para hover */
+}
+.iten-culinaria  a:hover {
+    background-color: black; /* Cor de fundo ao passar o mouse */
+}
+.iten-hsp {
+    background-color:  rgba(255, 255, 255, 0.7);
+    background-image: url(imagens-cabeçalho/hospedagem.jpg);
+    background-size: cover;               /* Cobrir todo o espaço */
+    background-position: center;          /* Centralizar a imagem */
+    background-repeat: no-repeat;         /* Evitar repetição */
+    padding: 10%;                 
+    text-align: 100%;
+    font-family: Rowdies;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 54px;
+    display: block;
+    box-shadow: unset;
+    position: unset;
+}
+.iten-hsp ul table {
+    list-style-type: none; /* Remove os marcadores da lista */
+    display: flex; /* Torna os itens da lista flexíveis (alinhados horizontalmente) */
+    justify-content: center; /* Centraliza os itens no menu */
+    padding: 15px 0; /* Espaçamento interno vertical */
+}
+.iten-hsp  li {
+    margin: 30px; /* Espaçamento entre os itens do menu */
+    padding: 60px;
+
+    
+   
+}
+.iten-hsp  a {
+    text-decoration: none; /* Remove o sublinhado dos links */
+    color: white; /* Cor do texto */
+    font-weight: bold; /* Texto em negrito */
+    padding: 5px 10px; /* Espaçamento interno nos links */
+    border-radius: 4px; /* Bordas arredondadas */
+    transition: background-color 0.3s; /* Transição suave para hover */
+}
+.iten-hsp  a:hover {
+    background-color: black; /* Cor de fundo ao passar o mouse */
+}
+.h2nat {
+    padding-left: 200px;
+}
+.arquipelago {
+    padding-left: 500px;
+    
+}
+.ilha {
+    padding-left: 800px;
+    font-size: medium;
+}    
+.itens-cultura {
+    background-color:  rgba(255, 255, 255, 0.7);
+    background-image: url(imagens-cabeçalho/cultura-.jpg);
+    background-size: cover;               /* Cobrir todo o espaço */
+    background-position: center;          /* Centralizar a imagem */
+    background-repeat: no-repeat;         /* Evitar repetição */
+    padding: 10%;                 
+    text-align: 100%;
+    font-family: Rowdies;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 54px;
+    display: block;
+    box-shadow: unset;
+    position: unset;
+
+}
+.itens-cultura ul table {
+    list-style-type: none; /* Remove os marcadores da lista */
+    display: flex; /* Torna os itens da lista flexíveis (alinhados horizontalmente) */
+    justify-content: center; /* Centraliza os itens no menu */
+    padding: 15px 0; /* Espaçamento interno vertical */
+}
+.itens-cultura li {
+    margin: 30px; /* Espaçamento entre os itens do menu */
+    padding: 60px;
+
+    
+   
+}
+.itens-cultura a {
+    text-decoration: none; /* Remove o sublinhado dos links */
+    color: white; /* Cor do texto */
+    font-weight: bold; /* Texto em negrito */
+    padding: 5px 10px; /* Espaçamento interno nos links */
+    border-radius: 4px; /* Bordas arredondadas */
+    transition: background-color 0.3s; /* Transição suave para hover */
+}
+.itens-cultura a:hover {
+    background-color: black; /* Cor de fundo ao passar o mouse */
+}
+.movimento p {
+    transition: transform 0.3s ease-in-out;
+
+
+}
+.culin :hover {
+    top:-4px;box-shadow:0 4px 4px #999;
+  
+}
